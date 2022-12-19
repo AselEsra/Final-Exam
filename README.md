@@ -41,6 +41,8 @@ sharpened = imgUnmask/70;
 
 figure, montage({blurred,sharpened}); 
 
+<img src="https://user-images.githubusercontent.com/64264345/208360851-73613a53-96e2-4aca-bbf5-e8cc8408c3b5.png" width="500"> 
+
 
 > we divide our blurred img in order to make it lighter 
 
@@ -54,6 +56,11 @@ a= [12 6 5 13 14 14 16 15;11 10 8 5 8 11 14 14; 9 8 3 4 7 12 18 19;10 7 4 2 10 1
 
 imshow(a/20),figure,imhist(a/20), axis tight
 
+<img src="https://user-images.githubusercontent.com/64264345/208361261-19cec6cc-9c86-49b4-970b-2bcde69f5ff7.png" width="300"> <img src="https://user-images.githubusercontent.com/64264345/208361553-2a8c07d7-0931-4b28-b83f-a470f249d3c3.png" width="400"> 
+
 ph = histeq(a/20);
 
 imshow(ph),figure,imhist(ph), axis tight
+
+<img src="https://user-images.githubusercontent.com/64264345/208361758-55f4ff6d-a00d-4968-82ac-160ce2d19f06.png" width="310"> <img src="https://user-images.githubusercontent.com/64264345/208361906-d1eeb320-450f-4af4-884f-8fb0e8d72b41.png" width="390"> 
+
